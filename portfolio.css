@@ -69,10 +69,12 @@ footer{
     body {
         font-size: 14px; 
     }
+}
 @media (max-width: 768px) {
     body {
         flex: 1 1 100%;
     }
+}
 /* Profile Summary ------------------- */
 
 
@@ -100,5 +102,5 @@ footer{
   margin: 10px;
 }
 .f1{
-  padding: 20px;
+  padding: 3px;
 }
