@@ -61,7 +61,10 @@ a:hover{
     border-top: 2px dotted black; 
     margin-top: 0.5px;
 }
-
+@media (max-width: 480px) {
+    body {
+        font-size: 14px; 
+    }
 /* Profile Summary ------------------- */
 
 
