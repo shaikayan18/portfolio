@@ -1,0 +1,88 @@
+
+html{
+    box-sizing: border-box;
+}
+
+*,::before,*::after{
+    box-sizing: inherit;
+}
+
+html,body {
+    height: 100%;
+}
+
+body {
+    background: #f6f6f6;
+    margin: 0;
+}
+
+.content-wrapper{
+    margin: 0 auto;
+    max-width: 900px;
+    padding: 30px;
+}
+
+
+/* Links------------------ */
+a{
+    color:rgb(230, 122, 34);
+}
+
+/*Pseudo elements*/
+a:hover{
+    color: #711ff7;
+}
+.btn{
+    background: #2ff045;
+    text-decoration:none;
+    padding: 10px 20px;
+    display: inline-block;
+    position: fixed;
+}
+
+/* HOME ---------------------- */
+
+/* RESUME -------------------- */
+.resume header::before{
+    background-image: url('re2.jpg');
+    background-size: cover;
+    display: block;
+    height: 375px;
+    content: "";
+}
+.leftal{
+    width: 230px;
+    height: 120px;
+    float: left;
+    margin-right:10px;
+}
+.dotted-line {
+    border: none; 
+    border-top: 2px dotted black; 
+    margin-top: 0.5px;
+}
+
+/* Profile Summary ------------------- */
+
+
+/* Projects ------------------------- */
+
+
+/* Education ----------------- */
+
+
+/* Certifications ------------------------- */
+
+
+/* Technical Skills --------------------- */
+
+
+
+/* Achievements ------------------------- */
+
+
+/* Footer ---------------------- */
+footer{
+    background-color: black;
+    color: white;
+}

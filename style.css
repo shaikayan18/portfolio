@@ -1,0 +1,50 @@
+body {
+    background-image: url(pf1.jfif);
+    background-repeat: repeat;
+    background-size:cover;
+    background-position: center;
+   }
+   main p::first-letter{
+     color: blue;
+   }
+   h1{
+     color: rgb(5, 5, 5);
+   }
+   h2{
+     color: rgb(22, 21, 21)
+   }
+   .first{
+    background-color:white;
+    color:black;
+    padding: 20px; 
+    display: inline-block;
+}
+footer{
+    background-color: #222;
+    color:#d3d4d6;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+
+main {
+  flex: 1; 
+}
+
+footer {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+.f1{
+  padding: 20px;
+}
+.container{
+  display: flex;
+  justify-content: center; 
+  align-items: center;  
+}
