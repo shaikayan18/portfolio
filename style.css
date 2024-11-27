@@ -52,7 +52,9 @@ footer {
     body {
         font-size: 14px; 
     }
+}
 @media (max-width: 768px) {
     body {
         flex: 1 1 100%;
     }
+}
